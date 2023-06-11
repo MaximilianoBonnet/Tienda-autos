@@ -61,6 +61,17 @@ ul li a {
   height: auto;
 }
 
+.carousel-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item.active {
+  display: flex;
+}
+
 .car-model {
   font-size: 18px;
   font-weight: bold;
