@@ -1,0 +1,38 @@
+[
+  {
+    "marca": "Ford",
+    "modelo": "Fiesta",
+    "tipo": "Sedán",
+    "precio": 55000,
+    "km": 100000,
+    "color": "Azul",
+    "image": "../frontend/images/fordFiestaSedanAzul2013.png"
+  },
+  {
+    "marca": "Chevrolet",
+    "modelo": "Cruze",
+    "tipo": "Coupé",
+    "precio": 70000,
+    "km": 80000,
+    "color": "Azul",
+    "image": "../frontend/images/ChevroletCruzeSedanAzul.jpeg"
+  },
+  {
+    "marca": "Volkswagen",
+    "modelo": "Golf",
+    "tipo": "Familiar",
+    "precio": 90000,
+    "km": 60000,
+    "color": "Blanco",
+    "image": "../frontend/images/volkswagen_golf.jpg"
+  },
+  {
+    "marca": "Toyota",
+    "modelo": "RAV4",
+    "tipo": "Camioneta",
+    "precio": 120000,
+    "km": 50000,
+    "color": "Gris",
+    "image": "../frontend/images/toyota_rav4.jpg"
+  }
+]

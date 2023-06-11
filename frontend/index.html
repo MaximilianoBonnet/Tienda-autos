@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tu Tienda de Autos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">Tu Tienda de Autos</div>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="catalog.html">Catálogo</a></li>
+          <li><a href="financing.html">Financiamiento</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li>
+            <a href="cart.html" class="cart-icon"
+              >Carrito<span class="cart-items">0</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>Bienvenido a Tu Tienda de Autos</h1>
+        <p>Encuentra el auto de tus sueños</p>
+        <a href="catalog.html" class="cta-button">Ver Catálogo</a>
+      </div>
+    </header>
+
+    <div id="carCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carCarousel" data-slide-to="1"></li>
+        <li data-target="#carCarousel" data-slide-to="2"></li>
+        <li data-target="#carCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <img
+            src="images/fordFiestaSedanAzul2013.png"
+            alt="Ford Fiesta"
+            class="carousel-image"
+          />
+          <p class="car-model">Ford Fiesta</p>
+        </div>
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <img
+            src="images/ChevroletCruzeSedanAzul.jpg"
+            alt="Chevrolet Cruze"
+            class="carousel-image"
+          />
+          <p class="car-model">Chevrolet Cruze</p>
+        </div>
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <img
+            src="images/volkswagen_golf.jpg"
+            alt="Volkswagen Golf"
+            class="carousel-image"
+          />
+          <p class="car-model">Volkswagen Golf</p>
+        </div>
+        <!-- Slide 4 -->
+        <div class="carousel-item">
+          <img
+            src="images/toyota_rav4.jpg"
+            alt="Toyota RAV4"
+            class="carousel-image"
+          />
+          <p class="car-model">Toyota RAV4</p>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carCarousel"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carCarousel"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+
+    <footer>
+      <p>Tu Tienda de Autos &copy; 2023. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
