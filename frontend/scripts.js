@@ -14,7 +14,7 @@ var indicatorsContainer = carousel.querySelector('.carousel-indicators');
 var slidesContainer = carousel.querySelector('.carousel-inner');
 
 // Obtén los datos de los autos desde tu archivo cars.json (o cualquier otra fuente de datos)
-fetch('backend\data\cars.json')
+fetch('../backend/data/cars.json')
   .then(response => response.json())
   .then(data => {
     // Genera los elementos HTML para cada auto en el catálogo

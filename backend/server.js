@@ -4,7 +4,7 @@ const port = 3000; // Puedes usar cualquier número de puerto que desees
 
 // Ruta para obtener el archivo JSON
 app.get('/archivo.json', (req, res) => {
-  res.sendFile(__dirname + '/../data/cars.json');
+  res.sendFile(__dirname + '/../backend/data/cars.json');
 });
 
 // Iniciar el servidor

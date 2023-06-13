@@ -5,13 +5,11 @@ body {
   padding: 0;
 }
 
+/* Estilos para el encabezado */
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
-}
-
-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,25 +18,16 @@ nav {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  order: 1; /* Cambia el orden del logo */
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
+nav {
+  order: 1; /* Cambia el orden del menú */
 }
 
-ul li {
-  margin-right: 10px;
-}
-
-ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 5px;
-}
-
+/* Estilos para la sección de inicio */
 .hero {
-  text-align: center;
+  text-align: right;
   margin-top: 50px;
 }
 
@@ -56,20 +45,20 @@ ul li a {
   text-decoration: none;
 }
 
+/* Estilos para el carrusel */
+.carousel-container {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el carrusel */
+  margin-top: 20px;
+}
+
 .carousel-image {
   max-width: 100%;
   height: auto;
 }
 
-.carousel-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.carousel-item.active {
-  display: flex;
+.carousel-item .carousel-image {
+  max-width: 80%; /* Tamaño reducido para las imágenes del carrusel */
 }
 
 .car-model {
@@ -81,8 +70,6 @@ ul li a {
 
 .carousel-control-prev,
 .carousel-control-next {
-  width: auto;
-  margin: 0 15px;
   color: #333;
   font-size: 30px;
 }
@@ -100,14 +87,7 @@ ul li a {
   background-color: #888;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-/* Estilos específicos para el carrito */
+/* Estilos para el carrito */
 .cart-icon {
   position: relative;
 }
@@ -125,4 +105,38 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Estilos específicos para los botones en las páginas */
+/* Catálogo, Financiamiento, Contacto y Carrito */
+.btn.btn-round {
+  border-radius: 20px;
+}
+
+.catalog-button {
+  background-color: blue;
+  color: white;
+}
+
+.financing-button {
+  background-color: green;
+  color: white;
+}
+
+.contact-button {
+  background-color: orange;
+  color: white;
+}
+
+.cart-button {
+  background-color: red;
+  color: white;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
